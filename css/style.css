@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://files.soniccdn.com/images/articles/amp/41628.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: medium;
+}
+
+header{
+    background-color: rgba(224, 214, 238, 0.835);
+    font-size: medium;
+}
+P{
+    color: rgb(11, 11, 92);
+}
+
+hedear-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    min-height: 5rem
+}
+
+header{
+    display: flex;
+    padding-top: 1.20rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+.navbar{
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.navbar-artistas{
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar-artistas li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5625rem;
+    flex-grow: 1;
+    flex-basis: 20rem;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5625rem;
+    flex-grow: 1;
+    flex-basis: 20rem;
+}
+
+.navbar li a:hover{
+    color:blue;
+    text-decoration: underline;
+
+}
+
+.navbar-artistas li a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+
+.sectionPrincipal{
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.Galeria-Home{
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    grid-template-rows: repeat(2,30%);
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: 
+    "item1 item2 item3"
+    "item1 item4 item5"
+    ;
+    gap: .625rem;
+}
+.item1{
+    grid-area: item2;
+
+}
+.item2{
+    grid-area: item3;
+}
+
+.item3{
+    grid-area: item1;
+}
+
+.item4{
+    grid-area: item4;
+}
+
+.item5{
+    grid-area: item5;
+}
+
+.Galeria-Home img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-contacto{
+    height: 90%auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.contaco{
+    background-color: #330867;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+.sectionPrincipal.Contacto{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.form{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    font-family: "Grenze Gotisch", serif;
+    align-content: center;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    
+}
+.form-container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid: auto columns 100%; ;
+
+}
+.form-title{
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.form-input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    border-radius: 0.2em;
+
+
+}
+
+.form-input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form-cta{
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #30cfd0;
+    color: #fff;
+    font-weight:300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+
+}
+
+.sethome{
+    background-image: url(https://brf.be/wp-content/uploads/2023/07/tomorrowlandhatimkaghatbelga-1000x667.jpg);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 90%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat
+}
+
+.sectionPrincipal-Artista{
+    justify-content: center;
+    align-items: center;
+    display: flex
+    ;
+
+}
+
+.título-ameli{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.Ameli-A{
+    width: 30%;
+    height: 20%;
+    align-items: center;
+    align-content: center;
+    justify-content:center; 
+    display: flex;
+    flex-wrap: wrap
+    
+    
+}
+.SetAmeli{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+}
+    
+footer p{
+    color: blueviolet;
+}
+
+    
+footer{
+    display: flex;
+    padding-top: 1.20rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: lightcoral
+    
+}
+.content__icons-footer{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: auto;  
+}
+
+@media(max-width:1024px){
+    header{
+        background-color: aquamarine;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:768px)and(orentation:landscape) {
+header{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.item3{
+    display: none;
+}
+.Galeria{
+    grid-template-columns: repeat(2,50%);
+    grid-template-areas: 
+    "item3 item2"
+    "item4 item5"
+    ;
+
+}
+}
+.content__icons-footer{
+    display: flex;
+    justify-content: end;
+    align-items:center;
+    height: auto;  
+}
+
+@media(max-width:425px){
+    .navbar{
+        padding-top: 1.25rem;
+        flex-direction: column;
+        justify-content: center;
+        gap: .625rem;
+        align-items: center;
+    }
+    .item3{
+        display: block;
+    }
+    .Galeria-Home{
+        grid-template-columns: 1fr;
+        grid-template-columns: repeat(5,auto);
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5"
+        ;
+    }
+    .form{
+        padding: 3.5em 1em;
+    }
+    Ameli-A{
+        width: 60%;
+        height: 60%;
+        align-items: center;
+        align-content: center;
+        justify-content:center; 
+        display: flex;
+        flex-wrap: wrap
+    }
+}
